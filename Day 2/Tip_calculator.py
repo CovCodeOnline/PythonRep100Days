@@ -25,4 +25,7 @@ bill_per_person = total_bill / number_of_people
 #print(people_value)
 final_value = round(bill_per_person,2)
 
+#coloca um 0 quando falta nas casas decimais 33.2 passa a 33.20
+final_value = "{:.2f}".format(bill_per_person)
+
 print(f"Each Person should pay: ${final_value}")
