@@ -23,3 +23,21 @@ print(result)
 #**
 # * /
 #+ -
+
+#Number Manipulation and F Strings
+
+print(round(2.66666,2)) #result 2,67
+
+#Imprime o resultado automaticamente como Integer
+print(8 // 3)
+
+restul = 4 / 2 
+result /= 2 #Resultado a Dividir por 2
+result += 2 #Somar o valor de Result mais 2
+
+#F STRINGS - COmbinar varios tipos para imprimit sem fazer conversão
+score = 0
+height = 1.8
+isWinning = True
+
+print(f"your score is {score}, your height is {height}, you are winning is {isWinning}")
