@@ -1,4 +1,4 @@
-# CONTROL IF
+# CONTROL IF STATEMENT
 # 🚨 Don't change the code below 👇
 height = float(input("enter your height in m: "))
 weight = float(input("enter your weight in kg: "))
