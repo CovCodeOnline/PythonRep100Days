@@ -2,5 +2,14 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
 
 print(states_of_america)
 
+# change value of list
+states_of_america [1] = "teste"
+
+# add to list end
+states_of_america.append("Angela")
+
+# extending a list to list
+
+states_of_america.extend("angela","nuno")
 
 dirty_dozen = ["Strawberries", "Spinach", "Kale", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears", "Tomatoes", "Celery", "Potatoes"]
